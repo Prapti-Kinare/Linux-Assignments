@@ -219,10 +219,6 @@ tar -czf dir.tar.gz dir/
 ### Files owned by john:
 find /home -user john
 
-### Cron job (daily 9AM):
-crontab -e
-0 9 * * * /path/to/command
-
 ### Disk usage sorted:
 du -sh * | sort -h
 
